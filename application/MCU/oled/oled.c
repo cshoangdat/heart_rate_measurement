@@ -96,7 +96,7 @@ void oled_display(int32_t spo2, int32_t heartRate, int16_t temp)
         
         u8g2_SetFont(&u8g2, u8g2_font_ncenB08_tr);
 
-        u8g2_DrawStr(&u8g2, y, x, "Dung - Thien");
+        // u8g2_DrawStr(&u8g2, y, x, "Dung - Thien");
         x = (x+15);
         // Buffer for converting number to string
         sprintf(spo2_str, "SPO2: %li %%", spo2);  // Format number as string
