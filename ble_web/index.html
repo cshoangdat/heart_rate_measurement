@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>DATN</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="bluetooth.js"></script>
+    <link rel="stylesheet" href="./assets/css.css">
+  </head>
+  <body>
+    <div class = "div_col">
+        <img src="/assets/img/hcmute_logo.jpg" alt="" class = "logo">
+        <h2>Đồ án tốt nghiệp 2024 - 2025</h2>
+    </div>
+    <div class = "div_col">
+      <h3>Nhấn để kết nối BLE đến thiết bị</h3>
+    </div>
+    <div class = "div_row">
+        <button id="connect">Connect</button>
+        <button id="disconnect">Disconnect</button>
+    </div>
+    <div class = "div_col">
+      <h3><span>Temperature: <span id="temp">-</span></span></h3>
+      <h3><span>Heart Rate: <span id="hr">-</span></span></h3>
+      <h3><span>SpO2: <span id="spo2">-</span></span></h3>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
